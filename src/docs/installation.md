@@ -7,82 +7,134 @@ tag:
   - installtion
 ---
 
-# 1.引言
-## 1-1. 编写目的
-本用户手册的编写主要是为了帮助用户更快的理解和安装更新液压阀块智慧设计软件软件
+# 1.Summary
+
+## 1-1. About
+
+This user manual is written to help users understand and install the updated hydraulic valve block intelligent design software software faster
+
 ## 1-2. 阅读建议
-阅读对象，针对所有阀块设计工程师。
-该软件是基于SolidWorks2018平台开发的液压阀块智慧设计软件，首先要求读者熟悉SolidWorks2018软件的基本操作，其次要求读者熟悉油路块设计过程的业务流程及专业知识。
-基于以上条件，用户才能更好地学习和使用本软件系统。
+
+Reading object, for all valve block design engineers.
+The software is based on SolidWorks2018 platform developed hydraulic valve block wisdom design software, firstly, the reader is required to be familiar with the basic operation of SolidWorks2018 software, and secondly, the reader is required to be familiar with the business process and professional knowledge of the oil circuit block design process.
+Based on the above conditions, the user can better learn and use this software system.
+
 ## 1-3. 环境要求
-本软件系统是基于SolidWorks2018平台所做的二次开发，故其电脑运行环境不低于SolidWorks2018软件当前版本运行的最低要求即可。
-以下数据来源于SolidWorks官网：
+This software is based on the SolidWorks platform for secondary development, so its computer running environment is not less than the minimum requirements for the current version of SolidWorks software to run.
+The following data comes from the SolidWorks website.
  ![图片](/images/24240188.png)
  
-# 2. 软件安装
-## 2-1. 获取安装包
-从南京拓勤对接负责人处，索取软件安装包；
-## 2-2. 安装包文件
+# 2. Software Installation
+
+## 2-1. Get the installer
+
+Send e-mail to get a latest installer.
+
+## 2-2. Installer files
+
 ![图片](/images/28329539.png)
+
 **1、TouchManifoldDesign 	是阀块设计软件的主程序安装包；
+
 2、sense_shield_installer	是阀块软件对应许可服务安装包；
 3、ndp472-kb4054530		是Windows系统.net 4.72框架组件安装包；
 4、软件安装与卸载手册	是指导用户安装和卸载软件的操作手册。**
 ## 2-3. 安装顺序
+
 先安装许可服务程序，且在保证许可认证成功后，再安装软件主程序。
-**注意：安装主程序需要以管理员权限运行，若弹出缺失.net 4.72...的提示，则需要先安装.net 4.72框架组件后，再安装主程序文件。**
-# 3.许可安装与设置
-### 步骤一：
-将许可安装包复制至本地电脑某目录下，右键“以管理员身份运行”；
+
+**Note: To install the main program, you need to run it with administrator privileges, if you get a pop-up message about missing .net 4.72... Net 4.72 framework component first, then install the main program file.**
+
+# 3.License Installation and Setup
+
+### Step 1：
+
+Copy the license installation package to a directory on the local computer and right-click "Run as administrator".
 ![图片](/images/28329545.png)
-### 步骤二：
-在弹出界面中，单击“立即安装”命令，软件将自动安装；
+
+### Step 2：
+
+In the pop-up screen, click the "Install Now" command and the software will be installed automatically.
+
 ![图片](/images/28329546.png)
 ![图片](/images/28329549.png)
-### 步骤三：
-安装完成后，单击“立即体验”将弹出许可软件界面；
-![图片](/images/28329553.png)
-### 步骤四：
-在许可软件界面中，依次单击“云/软锁”>“云账号”后的加号+，输入已获得的账号及其密码，单击“确定”后登录云账号，即可看到已有许可数；
-![图片](/images/28329554.png)
-### 步骤五：
-单击登录的账号后，可以看到当前账号的许可信息，如正常许可数等等；
-![图片](/images/28329555.png)
-### 步骤六：
-关闭当前许可服务程序窗口即可。
 
-# 4.主程序的安装
-注意：安装插件之前，需要关闭当前所有Solidworks软件；
-### 步骤一：
-将软件安装包复制至本地电脑某目录下，右键“以管理员身份运行”；
-![图片](/images/28329560.png)
-注意：若弹出“许可未连接...”等字样，需要“重试”或“取消”，则请先保证许可认证成功后再进行安装。
-### 步骤二：
-在弹出界面中，勾选“我接受…”后，单击“Accept and Install”进行安装，如下图：
+### Step 3：
+
+After the installation is complete, click "Experience Now" to bring up the license software interface.
+
+![图片](/images/28329553.png)
+
+### Step 4：
+
+In the license software interface, click "Cloud/Soft Lock" > "Cloud Account" after the plus sign +, enter the acquired account and its password, click "OK" and then log in to the cloud account, you can see the existing license number.
+
+![图片](/images/28329554.png)
+
+### Step 5：
+
+Click on the logged-in account to see the current account's licensing information, such as the number of normal licenses, etc..
+![图片](/images/28329555.png)
+
+### Step 6：
+
+Just close the current license service program window.
+
+# 4.Installation of the main program
+
+Note: Before installing the plug-in, all current Solidworks software needs to be closed.
+
+### Step 1：
+
+Copy the software installation package to a directory on your local computer and right-click "Run as administrator".
+! [image](/images/28329560.png)
+Note: If you get a pop-up "License not connected..." etc., and you need to "Retry" or "Cancel", please make sure the license authentication is successful before installing.
+
+### Step 2：
+
+In the pop-up interface, check "I accept..." and click "Accept and Install" to install, as follows.
+
 ![图片](/images/28329561.png)
-### 步骤三：
-正在安装TouchMDesign阀块智慧设计软件软件
+
+### Step 3：
+
+TouchMDesign Valve Block Smart Design Software software is being installed.
+
 ![图片](/images/28329562.png)
-### 步骤四：
-稍等几分钟后，软件安装完成，单击“完成”即可；
+
+### Step 4：
+
+Wait a few minutes, the software installation is complete, click "Finish" can be.
 ![图片](/images/28329565.png)
 
 
-# 3. 软件卸载
-注意：卸载插件之前，需要关闭当前所有Solidworks软件；
-## 3-1. 卸载步骤
-**1、打开电脑的“控制面板“ – “程序和功能”，找到“TouchMDesign”的程序；**
+# 3. Software Uninstallation
+
+Note: Before uninstalling the plug-in, all current Solidworks software needs to be closed.
+
+## 3-1. Uninstallation steps
+
+**1、Open the computer's "Control Panel" - "Programs and Features" and find the program "TouchMDesign".**
 ![图片](/images/28329568.png)
-**2、右键“卸载”，将自动卸载该软件，期间会弹出小黑窗，无需操作，直至卸载完成；**
-注意：若弹出“许可未连接...”等字样，需要“重试”或“取消”，则请先保证许可认证成功后再进行卸载，或者先卸载许可服务程序后再按照常规软件卸载方式卸载即可。
 
-# 4. 软件更新
-说明：可直接安装覆盖原程序（操作步骤同软件安装），也可以先卸载（操作步骤同软件卸载）再安装（操作步骤同软件安装）；
+**2、Right click "Uninstall", the software will be automatically uninstalled, during which a small black window will pop up, no action is needed until the uninstallation is complete.**
 
-# 5. 常见问题
-**Q1：SolidWorks启动后，未成功加载插件菜单**
-A1:查看插件列表中是否存在“TouchMDesign”插件，若有，则勾选加载，若没有，则说明插件未注册成功，需要联系管理员重新注册激活插件即可。
-**Q2：电脑始终安装后，插件始终无法挂载上，该如何处理？**
-A2：存在两种情况，一是所安装的目录禁止获取管理员权限；二是当前电脑登陆账号不具有管理员权限，请联系IT开放权限或者使用有管理员权限的账号登陆；
-**Q3：安装插件时，提示“.Net 4.72……？**
-A3：安装对应系统框架程序即可
+Note: If you get a pop-up "License not connected..." etc. and you need to "Retry" or "Cancel", please ensure the license authentication is successful before uninstalling, or uninstall the license service program first and then uninstall it in the usual way.
+
+# 4. Software Updates
+
+Instructions: can be installed directly to overwrite the original program (same procedure as software installation), or can be uninstalled first (same procedure as software uninstallation) and then installed (same procedure as software installation).
+
+# 5. Frequently Asked Questions
+
+**Q1：SolidWorks does not load the addin menu successfully after starting**
+
+A1:Check the plug-in list whether there is "TouchMDesign" plug-in, if there is, then check the load, if not, it means that the plug-in is not registered successfully, you need to contact the administrator to re-register to activate the plug-in.
+
+**Q2：After the computer is always installed, the plug-in never mounts on, what should I do?**
+
+A2：There are two cases, one is that the installed directory prohibits the acquisition of administrator privileges; the second is that the current computer login account does not have administrator privileges, please contact IT to open permissions or use the account with administrator privileges to log in.
+
+**Q3: Lost Net472**
+
+A3：Install the dotnet framework 472 can fix.

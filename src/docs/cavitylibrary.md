@@ -8,26 +8,16 @@ tag:
   - cavity library
 ---
 
-# 钻孔
+# Drill Holes
+
 Φ3、Φ4、Φ5、Φ6、Φ7、Φ8、Φ9、Φ10、Φ11、Φ12、Φ14、Φ15、Φ16、Φ17、Φ18、Φ19、Φ20、Φ22、Φ24、Φ25、Φ28、Φ30、Φ32、Φ38、Φ40、Φ44、Φ45、Φ50、Φ55、Φ60、Φ63、Φ80、Φ90、Φ100、Φ110
-备注：钻孔为通用标准孔，未来需要跟钻头规格及钻头长度相关联，且会被多孔定义时引用，所以作为独立孔腔节点。
-# 螺栓孔(GB/T192-2003)
-说明：螺纹规格与其对应的底孔尺寸是标准的，但是螺栓深度与其对应的底孔深度针对每家都不一定相同。
-1、国际公制标准螺纹（International Metric Thread System）
-我国国家标准CNS采用的螺纹。牙顶为平面，易于车削，牙底为圆弧形，以增加螺纹强度。螺纹角为60度，规格以M表示。公制螺纹可分为粗牙和细牙两种。表示法，如M8x1.25，M-代号，8-公称直径，1.25-螺距。
-2、统一标准螺纹（Unified Thread）
-由美国、英国、加拿大三国共同制定，为目前常用的英制螺纹。螺纹角亦为60度，规格以每英寸有几牙表示。此种螺纹可分为粗牙（UNC）、细牙（UNF）、特细牙（UNEF）。表示法，如1/2-10UNC，1/2-外径，10-每寸牙数，UNC-代号
-3、美国标准螺纹（American Standard Thread）
-螺纹顶部与根部皆为平面，强度较佳、螺纹角亦为60度，规格以每英寸有几牙表示。此种螺纹可分为粗牙（NC）、细牙（NF）、特细牙（NF）三级。表示法，如1/2-10NC，1/2-外径，10-每寸牙数，NC-代号。
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+# Bolt Holes
 
-## 公制粗牙螺纹孔
-| 螺纹规格	| 底孔直径	 | 螺纹深度 | 底孔深度
-| ---- | ---- | ----------- | ----------- |
+## Metric coarse threaded holes
+
+| BoltHole	| Diameter |
+| ---- | ---- | 
 M1x0.25	| Φ0.75	| 
 M2x0.4	| Φ1.6	| 
 M3x0.5	| Φ2.5	| 
@@ -60,10 +50,10 @@ M72x6.0	| Φ66	|
 M76x6.0	| Φ70	| 
 M80x6.0	| Φ74	| 
 
-## 公制细牙螺纹孔
+## Metric fine threaded hole
 
-| 螺纹规格  | 底孔直径 | 螺纹深度 | 底孔深度 |
-| -------- | --------- | ------- | -------- |
+| BoltHole	| Diameter |
+| ---- | ---- | 
 M1x0.2	| Φ0.8	| 
 M2x0.25| Φ1.75	| 
 M3x0.35	| Φ2.7	| 
@@ -112,10 +102,10 @@ M36x3.0	| Φ33	|
 M36x2.0	| Φ34	| 
 M36x1.5	| Φ34.5	| 
 
-## 英制粗牙螺纹孔
+## Inch coarse threaded hole
 
-| 螺纹规格(UNC)	| 底孔直径	 | 螺纹深度 | 底孔深度
-| ----------- | ----------- | ----------- | ----------- |
+| Thread size (UNC)	| Diameter	 |
+| ----------- | ----------- | 
 NO.1-64(1.854)	| Φ1.55	| 
 NO.2-56(2.184)	| Φ1.80	| 
 NO.3-48(2.515)	| Φ2.1	| 
@@ -141,10 +131,11 @@ NO.12-24(5.486)	| Φ4.50	|
 1-1/2-6               	| Φ34.00|
 1-3/4-5               	| Φ39.5|
 2-4-1/2               	| Φ45.2|
-## 英制细牙螺纹孔
 
-螺纹规格(UNF)	| 底孔直径	 | 螺纹深度 | 底孔深度
------------ | ----------- | ----------- | ----------- |
+## Inch fine threaded hole
+
+Thread size(UNF)	| Diameter	 | 
+----------- | ----------- | 
 NO.0-80(1.524)	| Φ1.25	| 
 NO.1-72(1.854)	| Φ1.55	| 
 NO.2-64(2.184)	| Φ1.85	| 
@@ -177,152 +168,225 @@ NO.12-28(5.846)	| Φ4.60	|
 ![图片](/images/28065869.png)
 ![图片](/images/28066665.png)
 
-# 螺纹油口
+# Threaded oil ports
 
-一般情况下，当孔道直径小于25mm时，咱们选用螺纹油口。
-螺纹油口最常用的三种标准，分别是：
-* 公制螺纹，牙型角60°，其螺纹特征代号用M表示；
-* 英制螺纹，牙型角55°，其螺纹特征代号用G表示；
-* 美制螺纹，牙型角60°，其螺纹特征代号用UNF表示；
+In general, when the diameter of the orifice is less than 25mm, we choose the threaded oil port.
+The three most commonly used standards for threaded oil ports, are.
+* Metric threads with a tooth angle of 60°, whose thread feature designation is indicated by M
+* Inch threads with a 55° thread angle and a G thread feature code.
+* U.S. threads with a 60° tooth angle, whose thread feature designator is denoted by UNF.
 
-## 公制螺纹ED密封油口(GB/T 2878 及 ISO 261)
+## Metric thread ED seal oil port (GB/T 2878 and ISO 261)
 ![图片](/images/27977619.png)
 
-## 英制G螺纹油口(JIS B2351)
+## Inch G thread oil port (JIS B2351)
 ![图片](/images/27977809.png)
 
-## SAE直螺纹油口(SAE J514及ISO 11926)
+## SAE straight thread oil port (SAE J514 and ISO 11926)
 ![图片](/images/27977768.png)
 
-## 公制螺纹油口(ISO 6141.1-2022)
+## Metric threaded oil port (ISO 6141.1-2022)
 ![图片](/images/28286110.png)
 
-## 英制BSP螺纹孔
+## Inch BSP threaded hole
 
-## BSPP螺纹ED密封油口(ISO 228-1)
+## BSPP threaded ED seal oil port (ISO 228-1)
 ![图片](/images/27977626.png)
 
-## 美制NPT螺纹孔(GB/T12716&ANSIBI.20.1-1983T)
+## American NPT threaded hole(GB/T12716&ANSIBI.20.1-1983T)
 
-## 英制PT螺纹孔(GB/T7306&IS07／1-1983T)
+## Inch PT thread hole(GB/T7306&IS07/1-1983T)
 
-# 法兰油口
-当孔道直径大于25mm时，选用法兰油口，不是说没有大尺寸的螺纹接头，而是说大尺寸的螺纹接头你需要用很大的扳手才能拧得动，而且也需要很大的操作空间，两者之间的密封则是靠两个结合面之间的O型圈来实现的。
-法兰接头按照标准也可以分为三种，分别是公制方形法兰、英制菱形法兰、美制SAE法兰。
-美制SAE法兰同一个规格还为分轻型系列（3000psi）和重型系列（6000psi）两种。另外用于固定的4根螺栓还分公制螺栓和美制螺栓。
-## DN法兰
-## FA法兰
-## SAE法兰
-## EPS法兰
-## JBC-08法兰
-## TZQ72100附接法兰
-## TZQ72102直角法兰
-## ISO 6164 PN250法兰
-## ISO 6164 PN400法兰
-## Y/HD51-96R法兰
-## TD91A-08法兰
-## TD91B-08法兰
-## 31TDK-01法兰
-# 通用孔腔
-## GB2877盖板孔
-## SUN螺纹插装孔
-## 电磁阀孔
-# 液压件厂商
+# Flange oil port
+
+When the diameter of the orifice is greater than 25mm, the flange oil port is selected. It is not that there is no large size threaded joint, but that large size threaded joint you need a very large wrench to screw, and also requires a large operating space, and the seal between the two is achieved by the O-ring between the two bonding surfaces.
+Flange joints can also be divided into three types according to the standard, which are metric square flange, imperial diamond flange, and U.S. SAE flange.
+American SAE flange with the same specification is also divided into light series (3000psi) and heavy series (6000psi) two. In addition to the four bolts used to fix the metric bolts and American bolts.
+
+## DN flange
+
+## FA flange
+
+## SAE flange
+
+## EPS flange
+
+## JBC-08 flange
+
+## TZQ72100附接 flange
+
+## TZQ72102直角 flange
+
+## ISO 6164 PN250 flange
+
+## ISO 6164 PN400 flange
+
+## Y/HD51-96R flange
+
+## TD91A-08 flange
+
+## TD91B-08 flange
+
+## 31TDK-01 flange
+
+# Universal cavity
+
+## GB2877 cover hole
+
+## SUN threaded cartridge hole
+
+## Solenoid valve hole
+
+# Hydraulic parts manufacturers
+
 ## 力士乐(Rexroth)
 泵、马达、阀、减速机等产品齐全。A4VG、A10VO、A11VO、A8VO泵;M4、M7、M8阀;A6VM、A2FE、MCR马达;GFT、GFW减速机;FD、BVD平衡阀。
+
 ## 派克汉尼汾(parker hannifin)
 泵、马达、阀等产品齐全。F1卡车泵、P系列金杯泵、PV系列开始泵;F11、MR、M系列金杯马达;压力控制阀、电磁方向阀、流量调节阀、针阀、fsater单向阀等附件。
+
 ## 萨澳丹佛斯(sauer danfoss)
 泵、马达、阀、减速机等产品齐全。H1(90)系列、45系列泵;90系列、51系列马达;PVG多路阀;OMP、OMT、OMS系列摆线马达。
+
 ## 伊顿威格士(eton vickers)
 泵、马达、阀等产品齐全。威格士柱塞泵、马达;伊顿摆线马达。
+
 ## 林德(linde)
 斜盘泵、马达，HPV、HPR泵; LSC多路阀;HMV/R/F/A马达。
+
 ## 哈威(Hawe)
 高压泵站、多路阀
+
 ## 布赫(bucher)
 高压齿轮泵、平衡阀
+
 ## 阿托斯(atos)
 工业用方向阀、插装阀、叠加阀、压力阀
+
 ## 油研(Yuken)
 工业用方向阀、插装阀、叠加阀、压力阀
+
 ## 穆格(moog)
 伺服阀
+
 ## 阿隆(Aron)
 工业用方向阀、插装阀
+
 ## 艾奇毕斯(HBS)
 插装式平衡阀、压力阀
+
 ## Fluid-press
 插装式平衡阀、压力阀
+
 ## 油控(Oil-control)
 插装式平衡阀、压力阀
+
 ## Brand
 流量控制阀、优先流量控制阀
+
 ## 贺德克(hydac)
 过滤器、蓄能器
+
 ## 西德福(stauff)
 过滤器、球阀、测试附件
+
 ## 汉莎-福莱克斯(hansa-flex)
 法兰接头、软管接头
+
 ## 英德诺曼(internormen)
 过滤器
+
 ## Sun
 插装阀
+
 ## 海德福斯(hydraforce)
 插装阀
+
 ## 玛努利()
 软管接头
+
 ## 汉斯克(haskel)
 气动增压泵
+
 ## 豪科(hoke)
 无泄漏手动球阀
+
 ## 世伟洛克(swagelok)
 无泄漏手动球阀
+
 ## snap-tite
 无泄漏手动球阀;快速接头
+
 ## Circle seal
 超小开启压力单向阀、高精度调压阀
+
 ## 沃尔福(walvoil)
 多路换向阀
+
 ## 意图奇()
 单向阀、快速接头
+
 ## amot
 恒温阀
+
 ## 万福乐(wandfluh)
 微型电磁阀、无泄漏电磁球阀、防爆防腐电磁阀
+
 ## 盖茨
 软管接头
+
 ## 贵州力源
+
 ## 北京华德
+
 ## 榆次油研
+
 ## 海特克
+
 ## 黎明液压
+
 ## 上海立新
+
 ## 合肥长源
+
 ## 四川长江
+
 ## 上海强田
+
 ## 涌镇液压
+
 ## 宁波意宁
+
 ## STEIMEL
 德国品牌，液压泵。
+
 ## 宁波克泰
 螺纹插装阀，质量也可以。
+
 ## 大金
 日本品牌，泵、阀都有。
+
 ## 康百世朝田
 台资企业，泵、阀都有。
+
 ## RRR
 日本品牌，专做超精过滤器
+
 ## spence
 美国品牌，控制阀。
+
 ## winner
 台湾品牌，插装阀。
+
 ## 无锡求信
 专做流量计
+
 ## Argo-Hytos(雅歌辉托斯)
 德国品牌，液压阀。
+
 ## Comatrol(科迈拓)
 美国品牌，插装阀，后被丹佛斯给收购。
+
 ## 奥莱尔
 宁波奉化，专做蓄能器。
 

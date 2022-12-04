@@ -13,95 +13,41 @@ actions:
 features:
   - title: Full integerate with SolidWorks
     icon: markdown
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
-    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+    details: use touchmdesign to design hydralic manifold design follow solidworks style.
 
-  - title: Slide page
+  - title: More and more cavity library
     icon: slides
-    details: Adding slide pages to display things you like
-    link: https://vuepress-theme-hope.github.io/v2/guide/layout/slides.html
+    details: There is a default cavity library with installer.
 
-  - title: Layout enhancement
+  - title: Extension you cavity library quickly
     icon: layout
-    details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
-    link: https://vuepress-theme-hope.github.io/v2/guide/layout/
+    details: You can add your own cavity library by CavityLibrary manager.
 
-  - title: Pageviews and comments
+  - title: Share you cavity library
     icon: comment
-    details: Start pageview statistics and comment support with Waline
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/comment.html
+    details: Share you cavity library by file.
 
-  - title: Article information
+  - title: Move align and connect
     icon: info
-    details: Add author, writing date, reading time, word count and other information to your article
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/page-info.html
+    details: Lots of actions for you to make it.
 
-  - title: Blog support
+  - title: Clearance check
     icon: blog
-    details: Listing your articles with their dates, tags and categories with some awesome layouts
-    link: https://vuepress-theme-hope.github.io/v2/guide/blog/
-
-  - title: Custom theme color
+    details: Check you hydralic manifold by one click.
+    
+  - title: Connection check
     icon: palette
-    details: Supports custom theme colors and allows users to switch between preset theme colors
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/theme-color.html
+    details: Connection check
 
-  - title: Dark Mode
+  - title: Tech Drawing
     icon: contrast
-    details: Switch between light and dark modes freely
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/darkmode.html
+    details: Export a tech drawing quickly.
 
-  - title: Full A11y support
-    icon: support
-    details: Full support of accessibility in your site
-    link: https://vuepress-theme-hope.github.io/v2/guide/interface/accessibility.html
-
-  - title: Article Encryption
-    icon: lock
-    details: Encrypt you articles based on page links, so that only the one you want could see them
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/encrypt.html
-
-  - title: Copy button
-    icon: copy
-    details: Copy codes with one click in code blocks
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/copy-code.html
-
-  - title: Image preview
-    icon: pic
-    details: Support viewing, zooming, sharing your page images like a gallery
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/photo-swipe.html
-
-  - title: SEO enhancement
-    icon: config
-    details: Optimize pages for search engines
-    link: https://vuepress-theme-hope.github.io/v2/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: Generate a Sitemap for your site
-    link: https://vuepress-theme-hope.github.io/v2/guide/advanced/sitemap.html
-
-  - title: Feed support
-    icon: rss
-    details: Generate feed to allow users to subscribe it
-    link: https://vuepress-theme-hope.github.io/v2/guide/advanced/feed.html
-
-  - title: PWA support
-    icon: mobile
-    details: Make your site more like an APP
-    link: https://vuepress-theme-hope.github.io/v2/guide/advanced/pwa.html
-
-  - title: More new features
-    icon: more
-    details: Including icon support, fullscreen button, etc.
-    link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
 copyright: false
 footer: Theme by <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a> | TouchMDesign, Copyright © 2019-present NJTouch Ltd China
 ---
 
-This is an example of a project homepage. You can place your main content here.
+# CommandManager
 
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://vuepress-theme-hope.github.io/v2/guide/layout/home/).
+![cmdmgr](/cmdmgr.png)
