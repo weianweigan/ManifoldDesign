@@ -1,7 +1,6 @@
 ---
 icon: lock
-title: 孔腔库
-order: 3
+title: 4. 孔腔库
 category:
   - Help
 tag:

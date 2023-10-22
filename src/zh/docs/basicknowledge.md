@@ -1,3 +1,12 @@
+---
+title: 2. 基础知识
+icon: markdown
+category:
+  - Help
+tag:
+  - Markdown
+---
+
 # 2. 基础知识
 
 ## 孔腔的定义

@@ -1,3 +1,12 @@
+---
+title: 3.4 插入多孔
+icon: markdown
+category:
+  - Help
+tag:
+  - Markdown
+---
+
 ## 3-4. 插入多孔
 
 ### 3-4-1. 功能描述

@@ -1,6 +1,5 @@
 ---
-title: 软件安装
-order: 2
+title: 1. 软件安装
 category:
   - Help
 tag:
