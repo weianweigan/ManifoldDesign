@@ -1,5 +1,6 @@
 ---
-title: 3.26 设置
+title: 设置
+order: 6
 icon: markdown
 category:
   - Help
@@ -7,7 +8,7 @@ tag:
   - Help
 ---
 
-# 3-26. 设置
+# 设置
 
 > 主要实现对阀块软件的基本设置内容，可以设置：
 

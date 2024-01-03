@@ -1,5 +1,6 @@
 ---
-title: 2. 基础知识
+title: 基础知识
+order: 1
 icon: markdown
 category:
   - Help
@@ -7,7 +8,7 @@ tag:
   - Markdown
 ---
 
-# 2. 基础知识
+# 基础知识
 
 ## 孔腔的定义
 
