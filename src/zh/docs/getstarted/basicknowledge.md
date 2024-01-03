@@ -1,6 +1,6 @@
 ---
 title: 基础知识
-order: 1
+order: 5
 icon: markdown
 category:
   - Help

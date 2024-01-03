@@ -1,6 +1,6 @@
 ---
 title: 卸载
-order: 2
+order: 3
 category:
   - Help
 tag:
