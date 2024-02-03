@@ -22,3 +22,9 @@ tag:
 # 下一步
 
 [安装](installation.md)
+
+# 联系我们
+
+加入群组
+
+<img src="/images/QQGroup.jpg" height="300" />
